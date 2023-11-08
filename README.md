@@ -1,1 +1,1 @@
-An Interior Design Company(HomeShine) Website Landing Page.
+An Interior Design Company(HomeShine) Website Landing Page coding.
