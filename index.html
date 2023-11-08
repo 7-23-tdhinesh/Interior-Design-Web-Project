@@ -1,17 +1,23 @@
 <!doctype html>
-<html>
+<html dir="ltr">
 <head>
 <meta charset="utf-8">
 <title>HomeShine</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="style.css" rel="stylesheet">
-	<style>
+<style>
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+	@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css')
 </style>
 </head>
 
 <body>
 	<div id="container">
 		<div id="head">
+			<input type="checkbox" id="check">
+			<label for="check" class="checkbtn">
+			<i class="fa solid fa-bars"></i>
+			</label>
 	  		<img id="headlogo" src="images/small-homeshine.png"/>
 				<div id="headnav">
 					<ul id="headnavlist">
@@ -31,26 +37,27 @@
 								<li class="navsublist"><a href="#">Wall Decor Designs</a></li>
 							</ul>
 						</div>
-					<li class="navlist"><a href="#"><input class="amd" type="button" value="Apt Minimal Design"></a></li>
+					<li class="navlist"><a href="#" class="navamd"><input class="amd" type="button" value="Apt Minimal Design"></a></li>
+					<li class="navlist"><a href="#" class="estihover"><input id="headestimate" type="button" value="Get Free Estimate"/></a></li>
 					</ul>
 				</div>
-			<a href="#" class="estihover"><input id="headestimate" type="button" value="Get Free Estimate"/></a>
 		</div>
 		<div id="bannersec">
 			<div id="bannerimg">
 				<img src="images/living-room-interior-designers-chennai.jpg">
 			</div>
-				<div id="yellowbar">
+			<div id="yellowbar">
 			</div>
 			<div id="bannertext">
-				<div id="bannercontent">
-					<p>We design your home beautiful,<br>that home feels you greatful.</p>
-				</div>	
-				<div id="bannerbutton">
-				<input type="button" value="Book Free Consultation">
+				<div id="subbannertext">
+					<div id="bannercontent">
+						<p>We design your home beautiful,<br>that home feels you greatful.</p>
+					</div>
 				</div>
 			</div>
-			
+			<div id="bannerbutton">
+				<input type="button" value="Book Free Consultation">
+			</div>
 		</div>
 		<div id="bodysec">
 			<div id="features" class="fullwidth">
@@ -100,6 +107,8 @@
 						<p>Have into Your Home in 30 Days</p>
 					</div>
 				</div>
+				<p id="tripledotpara"><span class="tripledot dot1"/><span class="tripledot dot2"/><span class="tripledot dot3"/></p>
+				<p><span class="stepsrightarrow"></span></p>
 			</div>	
 			<div id="packagessec" class="fullwidth">
 			<h2>Our Packages</h2>
@@ -130,23 +139,25 @@
 					<p id="packageprice">*Prices vary depends upon the sqrt feet.</p>
 					<p id="packagemore"><u><strong>more</strong></u>&#x25bc;</p>
 					</div>
+
 				</div>
+					
 		</div>
 			<div id="happyhomessec" class="fullwidth">
 				<h2>Our 1000+ Happy Homes</h2>
 				<div id="happyhomes">
 					<p><i class="arrow left"></i></p>
-					<div class="customers">
+					<div class="customers cust1">
 						<img src="images/1st-family.jpg">
 						<h4>Mr. Pradeep</h4>
 						<p>They are very professional...</p>
 					</div>
-					<div class="customers">
+					<div class="customers  cust2">
 						<img src="images/2nd-family.jpg">
 						<h4>Mr. Arunkumar</h4>
 						<p>Quality of furniture is good and staff...</p>
 					</div>
-					<div class="customers">
+					<div class="customers  cust3">
 						<img src="images/3rd-family.jpg">
 						<h4>Mr. Adithya Varun</h4>
 						<p>Structured, organized, and pleasant...</p>
@@ -158,28 +169,28 @@
 			<h2>Our Unique Apt Minimal Designs for minimal lovers</h2>
 				<div id="amdcontent">
 					<div class="amdselect">
-						<img src="images/Livingroom.svg"/>
-						<p>AMD - Living room</p>
+						<img src="images/Livingroom.svg"/><br/>
+						<span>AMD - Living room</span>
 					</div>
 					<div class="amdselect">
-						<img src="images/Kitchen.svg"/>
-						<p>AMD - Kitchen</p>
+						<img src="images/Kitchen.svg"/><br/>
+						<span>AMD - Kitchen</span>
 					</div>
 					<div class="amdselect">
-						<img src="images/wardrobe.svg"/>
-						<p>AMD - Wardrobe</p>
+						<img src="images/wardrobe.svg"/><br/>
+						<span>AMD - Wardrobe</span>
 					</div>
 					<div class="amdselect">
-						<img src="images/bedroom.svg"/>
-						<p>AMD - Bedroom</p>
+						<img src="images/bedroom.svg"/><br/>
+						<span>AMD - Bedroom</span>
 					</div>
 					<div class="amdselect">
-						<img src="images/washroom.svg"/>
-						<p>AMD - Washroom</p>
+						<img src="images/washroom.svg"/><br/>
+						<span>AMD - Washroom</span>
 					</div>
 					<div class="amdselect">
-						<img src="images/home-office.svg"/>
-						<p>AMD - Homeoffice</p>
+						<img src="images/home-office.svg"/><br/>
+						<span>AMD - Homeoffice</span>
 					</div>
 				</div>
 		</div>
@@ -192,12 +203,12 @@
 					<img src="images/hswhitelogo.png">
 					<div id="homeshine" class="footcontent">
 						<h4>HomeShine</h4>
-						<p class="footerlink">Total Home</p>
-						<p class="footerlink">Living Room</p>
-						<p class="footerlink">Modular Kitchen</p>
-						<p class="footerlink">Wardrobe</p>
-						<p class="footerlink">Home Office</p>
-						<p class="footerapt">Apt Minimal Designs</p>
+						<span class="footerlink">Total Home</span><br/>
+						<span class="footerlink">Living Room</span><br/>
+						<span class="footerlink">Modular Kitchen</span><br/>
+						<span class="footerlink">Wardrobe</span><br/>
+						<span class="footerlink">Home Office</span><br/>
+						<span class="footerapt">Apt Minimal Designs</span>
 					</div>
 					<div id="ContactUs" class="footcontent">
 						<h4>ContactUs</h4>
@@ -210,8 +221,8 @@
 					</div>
 					<div id="custsupport" class="footcontent">
 						<h4>Customer Support</h4>
-						<p class="footerlink">Raise Query</p>
-						<p class="footerlink">FAQs</p>
+						<span class="footerlink">Raise Query</span><br/>
+						<span class="footerlink">FAQs</span>
 					</div>
 				</div>
 			</div>
