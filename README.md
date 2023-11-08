@@ -1,1 +1,1 @@
-An Interior Design Company(HomeShine) Website Landing Page coding.
+Please check my coding for html project for Interior Design Company (Website Landing Page).
